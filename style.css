@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2A2A2A;
+  font-size: 14px;
+}
+
+/*top navigation*/
+
+#navigation {
+  background-color: #262626;
+  height: 80px;
+}
+
+#navigation .logo {
+  color: white;
+  line-height: 20px;
+  font-size: 25px;
+  float: left;
+  font-weight: bold;
+  padding: 15px 15px 15px 35px;
+  margin-top: 15px
+}
+
+#navigation a {
+  text-decoration: none;
+  color: #CCD8D8;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#navigation ul {
+  padding: 15px 35px 15px 15px;
+  float: right;
+  font-family: arial;
+  font-size: 14px;
+  margin-top: 20px;
+
+}
+
+#navigation li {
+  display: inline;
+}
+
+#navigation li.active a {
+  color: #FF6760;
+}
+
+/*intro section*/
+
+#intro {
+  margin-top: 60px;
+  text-align: center;
+  background-color: #2A2A2A;
+  color: #D8D8D8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#intro h1 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+#intro h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#intro h1 > span {
+  font-weight: bold;
+}
+
+#intro h2 > span {
+  color: #FF6760;
+}
+
+#intro button {
+  background-color: #FF6760;
+  color: white;
+  height: 50px;
+  border-radius: 7px;
+  border: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+/*features section*/
+
+.features {
+  background-color: #F6F6F6;
+  color: #616161;
+  height: 450px;
+}
+
+.row {
+  float: left;
+  margin: 25px 0;
+  width: 33.3333333333%;
+  text-align: center;
+  padding: 5px 0 20px 0;
+}
+
+.row h3 {
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+.row p {
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+/*footer section*/
+
+.footer {
+  background-color: #262626;
+  height: 250px;
+  text-align: center;
+}
+
+.footer h3 {
+  color: #D8D8D8;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 55px 0 25px 0;
+}
+
+.footer p {
+  color: #858585;
+  font-size: 15px;
+}
+
+.footer p a {
+  color: #793F3D;
+}
+
+#socialIcons {
+  margin: 20px 0 40px 0;
+}
+
+#socialIcons a {
+  color: white;
+}
+
+#socialIcons .fa-twitter {
+  background-color: #5DAED5;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+#socialIcons .fa-facebook {
+  background-color: #4470CF;
+  border-radius: 50%;
+  padding: 5px 8px;
+}
